@@ -1,7 +1,10 @@
-def soma(numeroUm, numeroDois):
-    return numeroUm + numeroDois
+def operacaoMat(numeroUm, numeroDois, tipoDeOperacao):
+    if tipoDeOperacao == 'SOM':
+        return numeroUm + numeroDois
+    elif tipoDeOperacao == 'SUB':
+        return numeroUm - numeroDois
 
-soma(2, 2)
+operacaoMat(2, 2)
 print(soma(3, 3))
 
 resultadoDaSoma = soma(4, 4)

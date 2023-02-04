@@ -5,3 +5,7 @@ while contador <= 5:
     # contador = contador + 1
 
 
+# tipos de dados
+# estruturas de decisão
+# estruturas de repetição
+

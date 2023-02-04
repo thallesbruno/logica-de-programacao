@@ -25,4 +25,4 @@ data = datetime.datetime.now()
 print("Olá, %s %s, hoje é %s" %(nome, sobrenome, data,))
 print('Olá, %(nome)s %(sobrenome)s, hoje é %(data)s' %(nome, sobrenome, data))
 
-#   
+#
