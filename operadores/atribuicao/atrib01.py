@@ -2,15 +2,16 @@
 # atribuem algo, algum valor, a alguma variável
 cem = int(100)
 
-cem += int(5)
-print(cem) # 105
+cem += int(5) # incremento
+# while
+print(cem)
 
-cem -= 5
-print(cem) # 100
+cem -= 5 # decremento
+print(cem)
 
-cem *= 5
-print(cem) # 500
+cem *= 5 # incremento
+print(cem)
 
-cem /= 5
-print(cem) # cast / conversão
+cem /= 5 # decremento
+print(cem) # casting / conversão automática
 print(type(cem))

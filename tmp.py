@@ -1,17 +1,7 @@
-condicao = True
-
-if condicao:
-    # o que deve ser feito se a condição for Verdadeira
-    print('verdadeiro')
-else:
-    # o que deve ser feito se a condição for Falsa
-    print('falso')
-
-print('-'*20)
-
+# programa para tentar acessar uym número informado
 numeroCerto = 4
-chuteUm = int(input("Digite o primeiro chute para tentar acertar: "))
 
+chuteUm = int(input("Digite o primeiro chute para tentar acertar: "))
 if chuteUm == numeroCerto:
     print('Acertou!')
 else:

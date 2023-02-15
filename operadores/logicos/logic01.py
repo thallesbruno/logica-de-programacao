@@ -32,6 +32,11 @@ if dictEfgs['efg2'] == 'Sarah Kubitscheck' or dictEfgs['efg1'] == 'Luiz Rassi':
 else:
     print(False)
 
+if not dictEfgs['efg2'] == 'Sarah Kubitscheck':
+    # True - 
+    print(True)
+else:
+    print(False)
 
 # diferença entre and e &
 # disclaimer
