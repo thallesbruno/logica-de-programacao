@@ -1,16 +1,19 @@
-primeiroNumero = 10
-segundoNumero = 5
+primeiroNumero: int = 10
+segundoNumero: int = 5
 
-soma = primeiroNumero + segundoNumero
-mnultiplicacao = primeiroNumero * segundoNumero
-subtracao = primeiroNumero - segundoNumero
-divisao = primeiroNumero / segundoNumero
-resto = primeiroNumero % segundoNumero
+# type anotations = comentários
+
+soma: int = primeiroNumero + segundoNumero
+multiplicacao: int = primeiroNumero * segundoNumero
+subtracao: int = primeiroNumero - segundoNumero
+divisao: int = primeiroNumero / segundoNumero
+resto: int = primeiroNumero % segundoNumero
 
 print('#' * 5 + ' OPERAÇÕES ' + '#' * 5)
 
 print(soma)
-print(mnultiplicacao)
+print(multiplicacao)
 print(subtracao)
 print(divisao)
 print(resto)
+
